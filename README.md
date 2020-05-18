@@ -6,7 +6,7 @@ We extended the [OpenNMT](https://github.com/OpenNMT/OpenNMT-py) library with a 
 
 ### Dependencies
  - Python 3
- - [Pytorch 0.3.1](https://pytorch.org/get-started/locally/)
+ - [Pytorch 0.3.1](https://pytorch.org/get-started/locally/) **NEW**: Now compatible with Pytorch 1.5.0
  - [Networkx](https://networkx.github.io) 
 
 
