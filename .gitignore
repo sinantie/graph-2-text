@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__
+*.pt
+.idea
+*.swp
+data/webnlg
