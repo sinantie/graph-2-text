@@ -107,9 +107,7 @@ def buildGraphWithNE(srgGraph):  #, uniqueRelation=False):
             subjNodeDescendants = subj[1:]
         objNode = obj[0]
         if len(obj):
-            objNodeDescendants = obj[1:
-
-                                 ]
+            objNodeDescendants = obj[1:]
         if not subjNode in srcNodes:
             srcNodes.append(subjNode)
         srcNodes.append(rel)
@@ -156,6 +154,7 @@ def create_source_target(b, options, dataset, delex=True, relex=False, doCategor
     TODO:update parapms
     :return: if delex True, return list of replacement dictionaries for each example
     """
+
     source_out = []
     source_nodes_out = []
     source_edges_out_labels = []
